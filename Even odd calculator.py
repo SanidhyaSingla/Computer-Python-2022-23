@@ -1,8 +1,9 @@
-# Even odd Calculator
+#Odd Even Finder
+num=int(input("Enter Number: "))
 
-a = int(input("Please enter a number:"))
-
-if a%2 == 0:
-    print(a, "is an even number")
+#Even
+if num%2 == 0:
+    print(num, "is an Even Number.")
+#Odd
 else:
-    print(a, "is an odd number")
+    print(num, "is an Odd Number.")
