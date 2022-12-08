@@ -1,7 +1,7 @@
 # Square and cube calculator
 
 a = int(input("Enter the number:"))
-cube = a**3
-square = a**2
+b = int(input("Please enter the power:"))
+c = a**b
 
-print("Square and cube of", a, "are", square, "and", cube, "respectively")
+print("Your answer is", b)
